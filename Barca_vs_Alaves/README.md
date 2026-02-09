@@ -61,40 +61,7 @@ python3 football_visualization.py
 
 ---
 
-## 📊 Visualizations
 
-### 1. **Event Type Distribution** (`1_event_types.png`)
-Top 15 event types in the match
-- **Key**: Passes (30.9%), Ball Receipts (28.1%), Carries (23.7%)
-
-### 2. **Team Possession** (`2_possession.png`)
-Possession split between teams
-- **Barcelona**: 74.1% (dominant)
-- **Alavés**: 25.9% (counter-attacking)
-
-### 3. **Performance Metrics** (`3_performance_metrics.png`)
-4-chart comparison of:
-- Passes: Barcelona 917 vs Alavés 246
-- Shots: Barcelona 25 vs Alavés 3
-- Fouls: Barcelona 7 vs Alavés 16
-- Interceptions: Barcelona 6 vs Alavés 18
-
-### 4. **Match Timeline** (`4_timeline.png`)
-Event frequency by 5-minute intervals
-- Shows activity patterns throughout match
-- Barcelona maintained high activity
-- Alavés had targeted pressure moments
-
-### 5. **Top Players** (`5_top_players.png`)
-Top 15 players by event contribution
-- Ivan Rakitić (408), Jordi Alba (355), Messi (304)
-- Color-coded by team (Red: Barcelona, Teal: Alavés)
-
-### 6. **Comprehensive Dashboard** (`6_dashboard.png`)
-Full analytical dashboard with all key metrics
-- Event types, possession, passes, shots, defense, timeline
-
----
 
 ## 🎯 Key Findings
 
@@ -137,19 +104,7 @@ Full analytical dashboard with all key metrics
 ├── Scripts:
 ├── football_analysis_pure.py           # Pure Python analysis ⭐
 ├── football_visualization.py           # Chart generation
-├── football_analysis.py                # Alternative implementation
-├── football_analysis_simple.py         # Simplified version
-│
-├── Reports:
-├── football_analysis_report.txt        # Text summary
-│
-└── Visualizations (PNG charts):
-    ├── 1_event_types.png               # Top 15 event types (82 KB)
-    ├── 2_possession.png                # Possession analysis (64 KB)
-    ├── 3_performance_metrics.png       # Team performance (74 KB)
-    ├── 4_timeline.png                  # Match timeline (67 KB)
-    ├── 5_top_players.png               # Top 15 players (110 KB)
-    └── 6_dashboard.png                 # Dashboard summary (157 KB)
+├── football_analysis.ipynb                # Alternative implementation
 ```
 
 ---
