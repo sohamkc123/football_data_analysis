@@ -44,9 +44,7 @@ This is a **comprehensive football data analysis** of a match between **Barcelon
    - Uses matplotlib for high-quality charts
    - Generates dashboard summary
    
-3. **`football_analysis.py`** & **`football_analysis_simple.py`**
-   - Alternative analysis implementations
-   - Pandas-based analysis options
+
 
 ### How to Run
 
